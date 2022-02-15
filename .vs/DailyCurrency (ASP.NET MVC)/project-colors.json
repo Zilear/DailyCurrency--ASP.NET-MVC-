@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4257d588-ec1a-4529-813d-37d0158e4707": {
+      "ProjectGuid": "4257d588-ec1a-4529-813d-37d0158e4707",
+      "DisplayName": "ValutesWebApp",
+      "ColorIndex": 0
+    },
+    "6b836555-1e17-46a4-b369-8629ffe01801": {
+      "ProjectGuid": "6b836555-1e17-46a4-b369-8629ffe01801",
+      "DisplayName": "BusinessObjects",
+      "ColorIndex": 1
+    },
+    "5e2e921e-8800-4057-8731-f521b1e17064": {
+      "ProjectGuid": "5e2e921e-8800-4057-8731-f521b1e17064",
+      "DisplayName": "JSONDeserializer",
+      "ColorIndex": 2
+    },
+    "fd496d7a-9c9a-45f8-b354-88d44cf6b8b4": {
+      "ProjectGuid": "fd496d7a-9c9a-45f8-b354-88d44cf6b8b4",
+      "DisplayName": "ServiceLibrary",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

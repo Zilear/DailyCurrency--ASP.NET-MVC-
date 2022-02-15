@@ -1,0 +1,12 @@
+E:\C# projects\ValutesWebApp\JSONDeserializer\bin\Debug\net6.0\JSONDeserializer.deps.json
+E:\C# projects\ValutesWebApp\JSONDeserializer\bin\Debug\net6.0\JSONDeserializer.dll
+E:\C# projects\ValutesWebApp\JSONDeserializer\bin\Debug\net6.0\ref\JSONDeserializer.dll
+E:\C# projects\ValutesWebApp\JSONDeserializer\bin\Debug\net6.0\JSONDeserializer.pdb
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\JSONDeserializer.csproj.AssemblyReference.cache
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\JSONDeserializer.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\JSONDeserializer.AssemblyInfoInputs.cache
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\JSONDeserializer.AssemblyInfo.cs
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\JSONDeserializer.csproj.CoreCompileInputs.cache
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\JSONDeserializer.dll
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\ref\JSONDeserializer.dll
+E:\C# projects\ValutesWebApp\JSONDeserializer\obj\Debug\net6.0\JSONDeserializer.pdb

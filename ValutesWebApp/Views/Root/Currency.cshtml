@@ -1,0 +1,66 @@
+﻿@using BusinessObjects.Model
+@model Currency
+
+@{
+    ViewData["Title"] = "Currency";
+}
+
+
+<form asp-controller="Root" asp-action="Currency">
+    <p>
+        Title: <input type="text" name="ticket" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class ="table">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            NumCode
+        </th>
+        <th>
+            CharCode
+        </th>
+        <th>
+            Nominal
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Value
+        </th>
+        <th>
+            Previous
+        </th>
+    </tr>
+    @if (Model != null)
+    {
+        <tr>
+            <td>
+                @Model.Id
+            </td>
+            <td>
+                @Model.NumCode
+            </td>
+            <td>
+                @Model.CharCode
+            </td>
+            <td>
+                @Model.Nominal
+            </td>
+            <td>
+                @Model.Name
+            </td>
+            <td>
+                @Model.Value
+            </td>
+            <td>
+                @Model.Previous
+            </td>
+        </tr>
+    }
+</table>
+

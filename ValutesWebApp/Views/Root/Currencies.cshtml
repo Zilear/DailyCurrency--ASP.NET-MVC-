@@ -1,0 +1,83 @@
+﻿@using BusinessObjects.Model
+@model CurrencyViewModel
+
+@{
+    ViewData["Title"] = "Currencies";
+}
+
+<h1>Currencies</h1>
+<p>Date - @Model.Root.Date</p>
+<p>Previous date - @Model.Root.PreviousDate</p>
+<p>Previous URL - @Model.Root.PreviousUrl</p>
+<p>Timestamp - @Model.Root.Timestamp</p>
+
+
+<table class ="table">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            NumCode
+        </th>
+        <th>
+            CharCode
+        </th>
+        <th>
+            Nominal
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Value
+        </th>
+        <th>
+            Previous
+        </th>
+    </tr>
+    @foreach(Currency currency in Model.Currencies)
+    {
+        <tr>
+            <td>
+                @currency.Id
+            </td>
+            <td>
+                @currency.NumCode
+            </td>
+            <td>
+                @currency.CharCode
+            </td>
+            <td>
+                @currency.Nominal
+            </td>
+            <td>
+                @currency.Name
+            </td>
+            <td>
+                @currency.Value
+            </td>
+            <td>
+                @currency.Previous
+            </td>
+        </tr>
+    }
+</table>
+@if (Model.PageViewModel.HasPreviousPage)
+{
+    <a asp-action="Currencies"
+       asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+       class="btn btn-outline-dark">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Назад
+    </a>
+}
+@if (Model.PageViewModel.HasNextPage)
+{
+    <a asp-action="Currencies"
+       asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+       class="btn btn-outline-dark">
+        Вперед
+        <i class="glyphicon glyphicon-chevron-right"></i>
+    </a>
+}
