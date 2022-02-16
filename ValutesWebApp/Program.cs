@@ -10,8 +10,8 @@ fileLoader.Load();
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddScoped<IRootRepository, RootRepository>();
-builder.Services.AddScoped<IRootService, RootService>();
+builder.Services.AddScoped<ICurrenciesDataRepository, CurrenciesDataRepository>();
+builder.Services.AddScoped<ICurrenciesDataService, CurrenciesDataService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

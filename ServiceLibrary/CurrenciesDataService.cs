@@ -10,16 +10,16 @@ using System.Threading.Tasks;
 
 namespace ServiceLibrary
 {
-    public class RootService : IRootService
+    public class CurrenciesDataService : ICurrenciesDataService
     {
-        private readonly IRootRepository _rootRepository;
-        public RootService(IRootRepository rootRepository)
+        private readonly ICurrenciesDataRepository _rootRepository;
+        public CurrenciesDataService(ICurrenciesDataRepository rootRepository)
         {
             _rootRepository = rootRepository;
         }
-        public Root GetRoot()
+        public CurrenciesData GetCurrenciesData()
         {
-            return _rootRepository.GetRoot();
+            return _rootRepository.GetCurrenciesData();
         }
 
         public Currency GetCurrency(string Ticket)

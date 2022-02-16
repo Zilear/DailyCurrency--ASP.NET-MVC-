@@ -10,17 +10,17 @@ using System.Threading.Tasks;
 
 namespace BusinessObjects.Repository
 {
-    public class RootRepository : IRootRepository
+    public class CurrenciesDataRepository : ICurrenciesDataRepository
     {
        
-        public Root GetRoot()
+        public CurrenciesData GetCurrenciesData()
         {
             var jsonFile = File.ReadAllText("./Currencies.json");
-            return JsonConvert.DeserializeObject<Root>(jsonFile, JSONDeserializer.JsonToClass.Converter.Settings);
+            return JsonConvert.DeserializeObject<CurrenciesData>(jsonFile, JSONDeserializer.JsonToClass.Converter.Settings);
         }
         public Currency GetCurrency(string Ticket)
         {
-            Root root = GetRoot();
+            CurrenciesData root = GetCurrenciesData();
             foreach (var currency in root.Currency.Values)
             {
                 if (currency.CharCode == Ticket) return currency;

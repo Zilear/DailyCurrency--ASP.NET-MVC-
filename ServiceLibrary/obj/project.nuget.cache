@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qa/Z5HNxhhfZMlbheXQuL8IPCuujEJa2K1VhLSuTmHdsPbu5xcdBaS86oP5A2hO6qpqhhKR1Zoq0rDft37zkrw==",
+  "dgSpecHash": "2mUR4vuB0fTJbxBDDLGnxd8D/NZZgKT/jxYHYWJRwgxStKGju5HvgBv8Am8JjCE01eTPf9XHZ9t8fmBAlEfZyg==",
   "success": true,
-  "projectFilePath": "E:\\C# projects\\ValutesWebApp\\ServiceLibrary\\ServiceLibrary.csproj",
+  "projectFilePath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\ServiceLibrary\\ServiceLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MaxAp\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\MaxAp\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B1sups/nIu1S9u6MQalneZ6A0mG/HuYFNo5hXb84uCkA816CuiulseltyYW5ZEqERFgboiknQ2ACBHarSRS3nw==",
+  "dgSpecHash": "U+waiyAZlNPNo8Eh2RlZ6dMoYwNtPG/4Zrr70LdtYbydlDBt9e/jgpPhk6Qu5bjLt68d40WrRdXI7bOCIIiDXA==",
   "success": true,
-  "projectFilePath": "E:\\C# projects\\ValutesWebApp\\ValutesWebApp\\ValutesWebApp.csproj",
+  "projectFilePath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\ValutesWebApp\\ValutesWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MaxAp\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\MaxAp\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

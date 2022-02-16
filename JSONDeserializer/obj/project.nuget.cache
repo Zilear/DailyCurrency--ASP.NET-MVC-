@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FnL04eFxBRq20HL1XPbpJyJTziOupIfK2riiDqclFntTRv+ENakUrXtJ7fcr8X4o4/OD1q55b5pNnL3smyKS6Q==",
+  "dgSpecHash": "51F8bn82y4jGeYY+X0XEat0I9RS5PRysr0qOzCkbtSxGEWPaHm1/LqifwQ/zLtvW7f+5/bqqC6oWh/isKI+W5Q==",
   "success": true,
-  "projectFilePath": "E:\\C# projects\\ValutesWebApp\\JSONDeserializer\\JSONDeserializer.csproj",
+  "projectFilePath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\JSONDeserializer\\JSONDeserializer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MaxAp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\MaxAp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace BusinessObjects.Repository.Interfaces
 {
-    public interface IRootRepository
+    public interface ICurrenciesDataRepository
     {
-         Root GetRoot();
+         CurrenciesData GetCurrenciesData();
 
          Currency GetCurrency(string Ticket);
         

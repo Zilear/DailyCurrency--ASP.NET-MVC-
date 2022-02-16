@@ -9530,11 +9530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C# projects\\ValutesWebApp\\ValutesWebApp\\ValutesWebApp.csproj",
+      "projectUniqueName": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\ValutesWebApp\\ValutesWebApp.csproj",
       "projectName": "ValutesWebApp",
-      "projectPath": "E:\\C# projects\\ValutesWebApp\\ValutesWebApp\\ValutesWebApp.csproj",
+      "projectPath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\ValutesWebApp\\ValutesWebApp.csproj",
       "packagesPath": "C:\\Users\\MaxAp\\.nuget\\packages\\",
-      "outputPath": "E:\\C# projects\\ValutesWebApp\\ValutesWebApp\\obj\\",
+      "outputPath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\ValutesWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9555,14 +9555,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\C# projects\\ValutesWebApp\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "E:\\C# projects\\ValutesWebApp\\BusinessObjects\\BusinessObjects.csproj"
+            "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "E:\\C# projects\\ValutesWebApp\\JSONDeserializer\\JSONDeserializer.csproj": {
-              "projectPath": "E:\\C# projects\\ValutesWebApp\\JSONDeserializer\\JSONDeserializer.csproj"
+            "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\JSONDeserializer\\JSONDeserializer.csproj": {
+              "projectPath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\JSONDeserializer\\JSONDeserializer.csproj"
             },
-            "E:\\C# projects\\ValutesWebApp\\ServiceLibrary\\ServiceLibrary.csproj": {
-              "projectPath": "E:\\C# projects\\ValutesWebApp\\ServiceLibrary\\ServiceLibrary.csproj"
+            "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\ServiceLibrary\\ServiceLibrary.csproj": {
+              "projectPath": "E:\\C# projects\\DailyCurrency (ASP.NET MVC)\\DailyCurrency--ASP.NET-MVC-\\ServiceLibrary\\ServiceLibrary.csproj"
             }
           }
         }

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ServiceLibrary.Interfaces
 {
-    public interface IRootService
+    public interface ICurrenciesDataService
     {
-        Root GetRoot();
+        CurrenciesData GetCurrenciesData();
 
         Currency GetCurrency(string Ticket);
     }

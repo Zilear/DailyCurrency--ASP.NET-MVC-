@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessObjects.Model
 {
-    public partial class Root
+    public partial class CurrenciesData
     {
         [JsonProperty("Date")]
         public DateTimeOffset Date { get; set; }
